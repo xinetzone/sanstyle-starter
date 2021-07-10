@@ -1,1 +1,4 @@
-# sanstyle-starter
+# Sanstyle
+
+[![GitHub issues](https://img.shields.io/github/issues/xinetzone/sanstyle-lab)](https://github.com/xinetzone/sanstyle-lab/issues) [![GitHub forks](https://img.shields.io/github/forks/xinetzone/sanstyle-lab)](https://github.com/xinetzone/sanstyle-lab/network) [![GitHub stars](https://img.shields.io/github/stars/xinetzone/sanstyle-lab)](https://github.com/xinetzone/sanstyle-lab/stargazers) [![GitHub license](https://img.shields.io/github/license/xinetzone/sanstyle-lab)](https://github.com/xinetzone/sanstyle-lab/blob/main/LICENSE)  ![repo size](https://img.shields.io/github/repo-size/xinetzone/sanstyle-lab.svg) [![contributors](https://img.shields.io/github/contributors/xinetzone/sanstyle-lab.svg)](https://github.com/xinetzone/sanstyle-lab/graphs/contributors) [![watcher](https://img.shields.io/github/watchers/xinetzone/sanstyle-lab.svg)](https://github.com/xinetzone/sanstyle-lab/watchers) ![](https://github.com/xinetzone/sanstyle-lab/actions/workflows/docs.yml/badge.svg)
+
