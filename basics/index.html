@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>快速入门 &#8212; SanstyleLab</title>
+    <title>指南</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -30,6 +30,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../_static/page.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
     <link rel="stylesheet" type="text/css" href="../_static/xin-css/main.css" />
     <link rel="stylesheet" type="text/css" href="../_static/w3css/4/w3pro.css" />
     <link rel="stylesheet" type="text/css" href="../_static/w3css/4/w3mobile.css" />
@@ -86,15 +87,18 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://xinetzone.github.io/sanstyle-starter/basics/index.html" />
     <link rel="shortcut icon" href="../_static/page-logo.jfif"/>
+    <link rel="author" title="关于这些文档" href="../about.html" />
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="prev" title="基础" href="index.html" />
+    <link rel="next" title="基础" href="topic.html" />
+    <link rel="prev" title="某个主题" href="../start/topic.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -116,8 +120,6 @@ commentsRunWhenDOMLoaded(addUtterances);
       <img src="../_static/logo.jpg" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">SanstyleLab</h1>
-      
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
@@ -126,26 +128,142 @@ commentsRunWhenDOMLoaded(addUtterances);
     <div class="bd-toc-item active">
         <p class="caption">
  <span class="caption-text">
-  手册
+  教程
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="index.html">
-   基础
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../start/index.html">
+   快速上手
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../start/topic.html">
+     某个主题
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="current reference internal" href="#">
+   指南
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="topic.html">
+     基础
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  主题
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../topics/index.html">
+   主题1
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/topic.html">
+     某个主题
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  原理
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../principle/index.html">
+   解释
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../principle/topic.html">
+     高级教程
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  参考
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../reference/index.html">
+   基础
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../reference/start.html">
      快速入门
     </a>
    </li>
   </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  混沌
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../about.html">
+   关于本书
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://xinetzone.github.io/sanstyle-book/">
+   Sanstyle Book
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../book.html">
+   外部资源
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../CHANGELOG.html">
+   变更日志
+  </a>
  </li>
 </ul>
 
@@ -211,7 +329,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/basic/start.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/basics/index.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -231,7 +349,7 @@ commentsRunWhenDOMLoaded(addUtterances);
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/xinetzone/sanstyle-starter/issues/new?title=Issue%20on%20page%20%2Fbasic/start.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/xinetzone/sanstyle-starter/issues/new?title=Issue%20on%20page%20%2Fbasics/index.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -261,15 +379,18 @@ commentsRunWhenDOMLoaded(addUtterances);
               <div>
                 
   <div class="section" id="id1">
-<h1>快速入门<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<h1>指南<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>循序渐进的指南。</p>
+<div class="toctree-wrapper compound">
+</div>
 </div>
 
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
+            repo: "xinetzone/sanstyle-starter",
+            ref: "main",
         },
         codeMirrorConfig: {
             theme: "abcdef",
@@ -277,7 +398,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./basic"
+            path: "./basics"
         },
         predefinedOutput: true
     }
@@ -289,7 +410,8 @@ commentsRunWhenDOMLoaded(addUtterances);
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="index.html" title="previous page">基础</a>
+    <a class='left-prev' id="prev-link" href="../start/topic.html" title="previous page">某个主题</a>
+    <a class='right-next' id="next-link" href="topic.html" title="next page">基础</a>
 
         </div>
         
@@ -302,7 +424,7 @@ commentsRunWhenDOMLoaded(addUtterances);
           <div class="extra_footer">
             <p class="w3-card w3-pale-blue w3-padding">
   Copyright © 2021
-  <a href="https://github.com/xinetzone">xinetzone</a> | 
+  <a href="https://sanstylelab.github.io/">SanstyleLab</a> | 
   Powered by <a href="https://github.com/executablebooks/jupyter-book">Jupyter Book</a>.
 </p>
 
