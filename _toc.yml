@@ -30,8 +30,12 @@ parts:
 
 - caption: 混沌
   chapters:
-  - file: about
+  - file: about/index
+    sections:
+      - glob: about/**
+      - file: CHANGELOG
   - url: https://xinetzone.github.io/sanstyle-book/
     title: Sanstyle Book
-  - file: book
-  - file: CHANGELOG
+  - file: other/index
+    sections:
+    - glob: other/**
