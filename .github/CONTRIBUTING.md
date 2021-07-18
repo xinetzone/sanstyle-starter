@@ -1,6 +1,6 @@
 # Development Conventions
 
-Welcome to the Executable Book Project (EBP)!
+Welcome to the Sanstyle Project (EBP)!
 We're excited you're here and want to contribute 🎉.
 
 This page outlines conventions and best practices for development and maintenance across all repositories in the EBP organisation, to help the community make the best tools possible.
@@ -39,7 +39,7 @@ This project and everyone participating in it is governed by the [EBP Code of Co
 
 ## Questions or feedback
 
-The Executable Books Project uses [a GitHub discussion board](https://github.com/executablebooks/meta/discussions) for community questions, discussion, and assistance. Please join in here: <https://github.com/executablebooks/meta/discussions>
+The Sanstyles Project uses [a GitHub discussion board](https://github.com/executablebooks/meta/discussions) for community questions, discussion, and assistance. Please join in here: <https://github.com/executablebooks/meta/discussions>
 
 Additionally, if you would like to see a new feature implemented, see our [Feature Voting page](https://executablebooks.org/en/latest/feature-vote.html).
 
@@ -56,7 +56,7 @@ Here's a list of the big ones:
 - [MyST-Parser](https://github.com/executablebooks/MyST-Parser) is a bridge between markdown-it-py and [sphinx](https://github.com/sphinx-doc/sphinx). It calls markdown-it-py on Markdown files and converts the parsing tokens created to the docutils Abstact Syntax Tree (AST) used internally by sphinx.
 - [MyST-NB](https://github.com/executablebooks/MyST-NB) builds on MyST-Parser to allow parsing and execution of [Jupyter Notebooks](https://jupyter.org/) and their [text-based representation](https://myst-nb.readthedocs.io/en/latest/use/markdown.html).
 - [jupyter-cache](https://github.com/executablebooks/jupyter-cache) is used by MyST-NB to execute notebooks and cache their results, such that they are only re-excuted during documentation builds when code cells change.
-- [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) is a sphinx HTML theme, designed to be optimal for the presentation of executable books.
+- [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) is a sphinx HTML theme, designed to be optimal for the presentation of Sanstyles.
 - [sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton), [sphinx-togglebutton](https://github.com/executablebooks/sphinx-togglebutton), [sphinx-panels](https://github.com/executablebooks/sphinx-panels) and [sphinx-thebe](https://github.com/executablebooks/sphinx-thebe) provide sphinx extensions to allow the inclusion of special features in the documentation.
 - [jupyter-book](https://github.com/executablebooks/jupyter-book) provides a user-friendly interface for building beautiful, publication-quality books and documents, utlising the above components.
 - [myst-language-support](https://github.com/executablebooks/myst-language-support) provides  aTextmate grammar, and VS Code extension, for editing MyST markdown.
