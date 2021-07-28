@@ -1,41 +1,42 @@
 format: jb-book
-root: README
+root: index
 parts:
 - caption: 教程
   chapters:
-  - file: start/index
+  - file: README
+  - file: docs/start/index
     sections:
-    - glob: start/**
-  - file: basics/index
+    - glob: docs/start/**
+  - file: docs/basics/index
     sections:
-    - glob: basics/**
+    - glob: docs/basics/**
 
 - caption: 主题
   chapters:
-  - file: topics/index
+  - file: docs/topics/index
     sections:
-    - glob: topics/**
+    - glob: docs/topics/**
 
 - caption: 原理
   chapters:
-  - file: principle/index
+  - file: docs/principle/index
     sections:
-    - glob: principle/**
+    - glob: docs/principle/**
 
 - caption: 参考
   chapters:
-  - file: reference/index
+  - file: docs/reference/index
     sections:
-    - glob: reference/**
+    - glob: docs/reference/**
 
 - caption: 混沌
   chapters:
-  - file: about/index
+  - file: docs/about/index
     sections:
-      - glob: about/**
+      - glob: docs/about/**
       - file: CHANGELOG
   - url: https://xinetzone.github.io/sanstyle-book/
     title: Sanstyle Book
-  - file: other/index
+  - file: docs/other/index
     sections:
-    - glob: other/**
+    - glob: docs/other/**
