@@ -93,6 +93,7 @@ parse:
     - replacements
     - smartquotes
     - substitution # 为了允许您定义 Markdown “变量”并在使用它们时置换文本
+    - tasklist # 待办
   myst_url_schemes: [mailto, http, https] # 在 Markdown 链接中将被识别为外部 URL 的 URI 方案
 
 #######################################################################################
@@ -107,7 +108,7 @@ latex:
 # Advanced and power-user settings
 sphinx:
   local_extensions: # A list of local extensions to load by sphinx specified by "name: path" items
-  config: 
+  config:
     html_show_copyright: false
     nb_custom_formats:
       .Rmd:
@@ -117,7 +118,7 @@ sphinx:
     # #917 this path will be the default in sphinx v4
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     # However, it is incompatible with the mathjax config below for macros
-    mathjax_config:
+    mathjax3_config:
       TeX:
         Macros:
           "N": "\\mathbb{N}"
@@ -185,7 +186,7 @@ sphinx:
       # matrix-theory:
       #   - "https://xinetzone.github.io/matrix-theory/"
       #   - null
-    language: zh
+    language: zh_CN
 
   extra_extensions:
     - sphinx_click.ext
