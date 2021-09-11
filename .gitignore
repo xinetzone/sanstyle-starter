@@ -134,3 +134,6 @@ w3css/
 
 # cache
 cache-directory/
+
+# draft
+draft/
