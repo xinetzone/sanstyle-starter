@@ -23,12 +23,6 @@ parts:
     sections:
     - glob: docs/principle/**
 
-- caption: 参考
-  chapters:
-  - file: docs/reference/index
-    sections:
-    - glob: docs/reference/**
-
 - caption: 混沌
   chapters:
   - file: docs/about/index
