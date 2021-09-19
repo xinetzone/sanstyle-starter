@@ -1,21 +1,20 @@
 # 上善若水
 
-
-:::{panels}
+```{panels}
 :container: +full-width text-center 
 :header: w3-pale-yellow w3-wide w3-card-4 
 :column: col-lg-4 px-2 py-2 w3-round-large
 :body: text-justify w3-padding
 :card: w3-pale-red w3-card 
 ---
-[xint 文档](https://xinetzone.github.io/xint-book/)
+[xint 文档](https://xinetzone.github.io/ai-world/)
 ^^^
-Python `xint` 文档。
-:::
+AI World!
+```
 
 ## 笔记
 
-:::{panels}
+```{panels}
 :container: +full-width text-center
 :header: w3-pale-blue w3-wide w3-card-4 
 :column: col-lg-4 px-2 py-2
@@ -45,13 +44,13 @@ Python `xint` 文档。
 [cbook](https://xinetzone.github.io/cbook/)
 ^^^
 C/C++ 学习笔记。
-:::
+```
 
 ## 他山之石
 
 收录一些优质的资源，并进行二次整合。
 
-:::{panels}
+```{panels}
 :container: +full-width text-center
 :header: w3-pale-yellow w3-wide w3-card-4 
 :column: col-lg-4 px-2 py-2
@@ -67,4 +66,4 @@ C/C++ 学习笔记。
 [crack-book](https://xinetzone.github.io/crack-book/)
 ^^^
 裂缝检测。
-:::
+```
