@@ -5,7 +5,7 @@
 :header: w3-pale-yellow w3-wide w3-card-4 
 :column: col-lg-4 px-2 py-2 w3-round-large
 :body: text-justify w3-padding
-:card: w3-pale-red w3-card 
+:card: w3-pale-red w3-card
 ---
 [AI World](https://xinetzone.github.io/ai-world/)
 ^^^
