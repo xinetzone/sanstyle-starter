@@ -7,7 +7,7 @@
 :body: text-justify w3-padding
 :card: w3-pale-red w3-card 
 ---
-[xint 文档](https://xinetzone.github.io/ai-world/)
+[AI World](https://xinetzone.github.io/ai-world/)
 ^^^
 AI World!
 ```
