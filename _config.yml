@@ -131,58 +131,31 @@ sphinx:
           \newcommand\floor[1]{\lfloor#1\rfloor}
           \newcommand{\bmat}{\left[\begin{array}}
           \newcommand{\emat}{\end{array}\right]}
-    intersphinx_mapping:
-      wiki:
-        - "https://xinetzone.github.io/wiki/"
-        - null
-      # ebp:
-      #   - "https://executablebooks.org/en/latest/"
-      #   - null
-      # myst-parser:
-      #   - "https://myst-parser.readthedocs.io/en/latest/"
-      #   - null
-      # myst-nb:
-      #   - "https://myst-nb.readthedocs.io/en/latest/"
-      #   - null
-      # sphinx:
-      #   - "https://www.sphinx-doc.org/en/master"
-      #   - null
-      # nbformat:
-      #   - "https://nbformat.readthedocs.io/en/latest"
-      #   - null
-      # sphinx-panels:
-      #   - https://sphinx-panels.readthedocs.io/en/sphinx-book-theme/
-      #   - null
-      # plotly-book:
-      #   - "https://xinetzone.github.io/plotly-book/"
-      #   - null
-      # sympy-book:
-      #   - "https://xinetzone.github.io/sympy-book/"
-      #   - null
-      # jupyter-book:
-      #   - "https://xinetzone.github.io/jupyter-book/"
-      #   - null
-      # pytorch-book:
-      #   - "https://xinetzone.github.io/pytorch-book/"
-      #   - null
-      # tensorflow-book:
-      #   - "https://xinetzone.github.io/tensorflow-book/"
-      #   - null
-      # life:
-      #   - "https://xinetzone.github.io/life/"
-      #   - null
-      # ai-world:
-      #   - "https://xinetzone.github.io/ai-world/"
-      #   - null
-      # mathematics:
-      #   - "https://xinetzone.github.io/mathematics/"
-      #   - null
-      # linear-algebra:
-      #   - "https://xinetzone.github.io/linear-algebra/"
-      #   - null
-      # matrix-theory:
-      #   - "https://xinetzone.github.io/matrix-theory/"
-      #   - null
+    # intersphinx_mapping:
+    #   wiki:
+    #     - "https://xinetzone.github.io/wiki/"
+    #     - null
+    #   ebp:
+    #     - "https://executablebooks.org/en/latest/"
+    #     - null
+    #   myst-parser:
+    #     - "https://myst-parser.readthedocs.io/en/latest/"
+    #     - null
+    #   myst-nb:
+    #     - "https://myst-nb.readthedocs.io/en/latest/"
+    #     - null
+    #   sphinx:
+    #     - "https://www.sphinx-doc.org/en/master"
+    #     - null
+    #   nbformat:
+    #     - "https://nbformat.readthedocs.io/en/latest"
+    #     - null
+    #   sphinx-panels:
+    #     - https://sphinx-panels.readthedocs.io/en/sphinx-book-theme/
+    #     - null
+    #   plotly-book:
+    #     - "https://xinetzone.github.io/plotly-book/"
+    #     - null
     language: zh_CN
 
   extra_extensions:

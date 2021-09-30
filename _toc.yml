@@ -7,15 +7,9 @@ parts:
   - file: docs/start/index
     sections:
     - glob: docs/start/**
-  - file: docs/basics/index
+  - file: docs/tutorials/index
     sections:
-    - glob: docs/basics/**
-
-- caption: 主题
-  chapters:
-  - file: docs/topics/index
-    sections:
-    - glob: docs/topics/**
+    - glob: docs/tutorials/**
 
 - caption: 原理
   chapters:
