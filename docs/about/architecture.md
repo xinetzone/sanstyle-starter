@@ -22,51 +22,51 @@
 ^^^
 存储项目的文档。
 ---
-`_config.yml`
+`apps/`
+^^^
+存储项目的应用。
+---
+{download}`_config.yml<../../_config.yml>`
 ^^^
 **项目文档**的配置文件。
 ---
-`_toc.yml`
+{download}`_toc.yml<../../_toc.yml>`
 ^^^
 **项目文档**的目录结构文件。
 ---
-`.gitignore`
+{download}`.gitignore<../../.gitignore>`
 ^^^
 Git 忽略的文件模式。
 ---
-`CHANGELOG.md`
+{download}`CHANGELOG.md<../../CHANGELOG.md>`
 ^^^
 项目的变更日志。被包含到**项目文档**。
 ---
-`index.md`
+{download}`index.md<../../index.md>`
 ^^^
 **项目文档**登录页。
 ---
-`README.md`
+{download}`README.md<../../README.md>`
 ^^^
 项目的自述文档。被包含到**项目文档**。
 ---
-`LICENSE`
+{download}`LICENSE<../../LICENSE>`
 ^^^
 项目的许可证。
 ---
-`logo.jpg`
+{download}`logo.jpg<../../logo.jpg>`
 ^^^
 **项目文档**页眉的 LOGO。
 ---
-`page-logo.jfif`
+{download}`page-logo.jfif<../../page-logo.jfif>`
 ^^^
 **项目文档**标签页的 LOGO。
 ---
-`references.bib`
+{download}`references.bib<../../references.bib>`
 ^^^
 **项目文档**的参考文献。
 ---
-`requirements.txt`
+{download}`requirements.txt<../../requirements.txt>`
 ^^^
-项目的 Python 包。
----
-`apps`
-^^^
-存储项目的应用。
+项目的 Python 依赖包。
 :::
