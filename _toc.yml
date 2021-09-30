@@ -23,8 +23,8 @@ parts:
     sections:
       - glob: docs/about/**
       - file: CHANGELOG
-  - url: https://xinetzone.github.io/sanstyle-book/
-    title: Sanstyle Book
   - file: docs/other/index
     sections:
     - glob: docs/other/**
+    - url: https://xinetzone.github.io/sanstyle-book/
+      title: Sanstyle Book
