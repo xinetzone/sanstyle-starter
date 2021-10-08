@@ -94,12 +94,12 @@ commentsRunWhenDOMLoaded(addUtterances);
         const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://xinetzone.github.io/sanstyle-starter/docs/start/00_how.html" />
+    <link rel="canonical" href="https://xinetzone.github.io/sanstyle-starter/docs/about/how.html" />
     <link rel="shortcut icon" href="../../_static/page-logo.jfif"/>
     <link rel="index" title="索引" href="../../genindex.html" />
     <link rel="search" title="搜索" href="../../search.html" />
-    <link rel="next" title="指南" href="../tutorials/index.html" />
-    <link rel="prev" title="快速上手" href="index.html" />
+    <link rel="next" title="参考文献" href="zreferences.html" />
+    <link rel="prev" title="项目架构" href="architecture.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -136,25 +136,25 @@ commentsRunWhenDOMLoaded(addUtterances);
   教程
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../README.html">
    Sanstyle 模板
   </a>
  </li>
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="index.html">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../start/index.html">
    快速上手
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     如何启动项目
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../start/raw.html">
+     未定义
     </a>
    </li>
   </ul>
@@ -206,24 +206,29 @@ commentsRunWhenDOMLoaded(addUtterances);
   混沌
  </span>
 </p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../about/index.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="index.html">
    关于
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
   <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="../about/architecture.html">
+    <a class="reference internal" href="architecture.html">
      项目架构
     </a>
    </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     如何启动项目
+    </a>
+   </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../about/zreferences.html">
+    <a class="reference internal" href="zreferences.html">
      参考文献
     </a>
    </li>
@@ -320,7 +325,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/start/00_how.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/docs/about/how.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -340,7 +345,7 @@ commentsRunWhenDOMLoaded(addUtterances);
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/xinetzone/sanstyle-starter/issues/new?title=Issue%20on%20page%20%2Fdocs/start/00_how.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/xinetzone/sanstyle-starter/issues/new?title=Issue%20on%20page%20%2Fdocs/about/how.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -392,8 +397,8 @@ commentsRunWhenDOMLoaded(addUtterances);
         
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="start-how">
-<span id="id1"></span><h1>如何启动项目<a class="headerlink" href="#start-how" title="永久链接至标题">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="about-how">
+<span id="id1"></span><h1>如何启动项目<a class="headerlink" href="#about-how" title="永久链接至标题">¶</a></h1>
 <section id="id2">
 <h2>云端配置<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
 <p>只需要专注于编写代码即可。</p>
@@ -440,7 +445,7 @@ jupyter-book build .
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./docs/start"
+            path: "./docs/about"
         },
         predefinedOutput: true
     }
@@ -457,19 +462,19 @@ jupyter-book build .
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="index.html" title="上一页 页">
+        <a class="left-prev" href="architecture.html" title="上一页 页">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">上一页</p>
-                <p class="prevnext-title">快速上手</p>
+                <p class="prevnext-title">项目架构</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="../tutorials/index.html" title="下一页 页">
+        <a class="right-next" href="zreferences.html" title="下一页 页">
             <div class="prevnext-info">
                 <p class="prevnext-label">下一页</p>
-                <p class="prevnext-title">指南</p>
+                <p class="prevnext-title">参考文献</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
