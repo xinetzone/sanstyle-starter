@@ -8,10 +8,11 @@ ghp-import
 sphinx_inline_tabs
 sphinx-click
 # sphinxext-rediraffe
-sympy
-statsmodels
+# sympy
+# statsmodels
 jupyter-dash
 plotly
-gunicorn
+# gunicorn
 # dash-xinet -i https://pypi.org/simple/
-sanstyle -i https://pypi.org/simple/ 
+sanstyle
+sphinx-intl
