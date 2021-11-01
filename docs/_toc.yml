@@ -3,28 +3,27 @@ root: index
 parts:
 - caption: 教程
   chapters:
-  - file: README
-  - file: docs/start/index
+  - file: start/index
     sections:
-    - glob: docs/start/**
-  - file: docs/tutorials/index
+    - glob: start/**
+  - file: tutorials/index
     sections:
-    - glob: docs/tutorials/**
+    - glob: tutorials/**
 
 - caption: 原理
   chapters:
-  - file: docs/principle/index
+  - file: principle/index
     sections:
-    - glob: docs/principle/**
+    - glob: principle/**
 
 - caption: 混沌
   chapters:
-  - file: docs/about/index
+  - file: about/index
     sections:
-      - glob: docs/about/**
+      - glob: about/**
       - file: CHANGELOG
-  - file: docs/other/index
+  - file: other/index
     sections:
-    - glob: docs/other/**
+    - glob: other/**
     - url: https://xinetzone.github.io/sanstyle-book/
       title: Sanstyle Book

@@ -23,25 +23,25 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r docs/requirements.txt
           conda install -c conda-forge myst-parser
           conda install ipykernel
           python -m ipykernel install --user --name ai --display-name "ai"
       - name: Install theme
         run: |
-          git clone https://github.com/xinetzone/xin-css.git ./_static/xin-css
-          git clone https://github.com/xinetzone/w3css.git ./_static/w3css
+          git clone https://github.com/xinetzone/xin-css.git docs/_static/xin-css
+          git clone https://github.com/xinetzone/w3css.git docs/_static/w3css
 
       # Build the book
       - name: Build the book
         run: |
-          jupyter-book build .
+          jupyter-book build docs
 
       # Deploy the book's HTML to gh-pages branch
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build/html
+          publish_dir: docs/_build/html
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
