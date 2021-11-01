@@ -4,100 +4,64 @@
 <html lang="zh_CN">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
-    <title>如何启动项目</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>如何启动项目 &#8212; Sanstyle Demo</title>
     
-  <link href="../../_static/css/theme.css" rel="stylesheet" />
-  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
-    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
     
       
 
     
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
-    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/page.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/xin-css/main.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/w3css/4/w3pro.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/w3css/4/w3mobile.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/w3css/4/w3.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/page.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/xin-css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/w3css/4/w3pro.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/w3css/4/w3mobile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/w3css/4/w3.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/togglebutton.js"></script>
-    <script src="../../_static/clipboard.min.js"></script>
-    <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/tabs.js"></script>
-    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
-    <script kind="utterances">
-
-    var commentsRunWhenDOMLoaded = cb => {
-    if (document.readyState != 'loading') {
-        cb()
-    } else if (document.addEventListener) {
-        document.addEventListener('DOMContentLoaded', cb)
-    } else {
-        document.attachEvent('onreadystatechange', function() {
-        if (document.readyState == 'complete') cb()
-        })
-    }
-}
-
-var addUtterances = () => {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "https://utteranc.es/client.js";
-    script.async = "async";
-
-    script.setAttribute("repo", "xinetzone/sanstyle-starter");
-    script.setAttribute("issue-term", "pathname");
-    script.setAttribute("theme", "github-light");
-    script.setAttribute("label", "💬 comment");
-    script.setAttribute("crossorigin", "anonymous");
-
-    sections = document.querySelectorAll("div.section");
-    if (sections !== null) {
-        section = sections[sections.length-1];
-        section.appendChild(script);
-    }
-}
-commentsRunWhenDOMLoaded(addUtterances);
-</script>
-    <script src="../../_static/translations.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/tabs.js"></script>
+    <script src="../_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe,.cell"
         const thebe_selector_input = "pre,.cell_input div.highlight"
         const thebe_selector_output = ".output,.cell_output"
     </script>
-    <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://xinetzone.github.io/sanstyle-starter/docs/about/how.html" />
-    <link rel="shortcut icon" href="../../_static/page-logo.jfif"/>
-    <link rel="index" title="索引" href="../../genindex.html" />
-    <link rel="search" title="搜索" href="../../search.html" />
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://xinetzone.github.io/sanstyle-starter/about/how.html" />
+    <link rel="shortcut icon" href="../_static/page-logo.jfif"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
     <link rel="next" title="参考文献" href="zreferences.html" />
     <link rel="prev" title="项目架构" href="architecture.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -116,17 +80,19 @@ commentsRunWhenDOMLoaded(addUtterances);
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../../index.html">
+    <a class="navbar-brand text-wrap" href="../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
         
       
       
-      <img src="../../_static/logo.jpg" class="logo" alt="logo">
+      <img src="../_static/logo.jpg" class="logo" alt="logo">
       
+      
+      <h1 class="site-logo" id="site-title">Sanstyle Demo</h1>
       
     </a>
-</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
@@ -137,11 +103,6 @@ commentsRunWhenDOMLoaded(addUtterances);
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../../README.html">
-   Sanstyle 模板
-  </a>
- </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../start/index.html">
    快速上手
@@ -233,7 +194,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../CHANGELOG.html">
+    <a class="reference internal" href="../CHANGELOG.html">
      变更日志
     </a>
    </li>
@@ -267,30 +228,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  <div class="w3-padding w3-card-4 w3-pale-green">
-  <a href="https://github.com/xinetzone" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub"
-      data-position="top" data-delay="50">
-      <i class="fab fa-github"></i>
-  </a>
-  <a href="mailto:q735613050@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top"
-      data-delay="50">
-      <i class="fas fa-envelope-open"></i>
-  </a>
-  <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=735613050" class="tooltipped"
-      target="_blank" data-tooltip="QQ联系我: 735613050" data-position="top" data-delay="50">
-      <i class="fab fa-qq"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/liu-xin-wei-55" class="tooltipped" target="_blank"
-      data-tooltip="关注我的知乎: liu-xin-wei-55" data-position="top" data-delay="50">
-      <i class="fab fa-zhihu1">知</i>
-  </a>
-  <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/xinet" class="tooltipped"
-      data-tooltip="领英联系我: xinet" data-position="top" data-delay="50">
-      <i class="fab fa-linkedin"></i>
-  </a>
-  <div><a href="https://github.com/xinetzone/sanstyle">上善若水</a> 版权所有</div>
-</div>
-
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
 </div>
 
 </div>
@@ -325,7 +263,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/about/how.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/about/how.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -345,7 +283,7 @@ commentsRunWhenDOMLoaded(addUtterances);
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/xinetzone/sanstyle-starter/issues/new?title=Issue%20on%20page%20%2Fdocs/about/how.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/xinetzone/sanstyle-starter/issues/new?title=Issue%20on%20page%20%2Fabout/how.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -397,13 +335,13 @@ commentsRunWhenDOMLoaded(addUtterances);
         
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="about-how">
+  <div class="tex2jax_ignore mathjax_ignore section" id="about-how">
 <span id="id1"></span><h1>如何启动项目<a class="headerlink" href="#about-how" title="永久链接至标题">¶</a></h1>
-<section id="id2">
+<div class="section" id="id2">
 <h2>云端配置<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
 <p>只需要专注于编写代码即可。</p>
-</section>
-<section id="id3">
+</div>
+<div class="section" id="id3">
 <h2>本地配置<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
 <p>配置工作要在项目根目录。</p>
 <p>首先，安装 CSS 主题：</p>
@@ -425,12 +363,12 @@ python -m ipykernel install --user --name ai --display-name <span class="s2">&qu
 jupyter-book build .
 </pre></div>
 </div>
-</section>
-<section id="id4">
+</div>
+<div class="section" id="id4">
 <h2>自定义<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
 <p>需要修改 <code class="docutils literal notranslate"><span class="pre">README.md</span></code>、<code class="docutils literal notranslate"><span class="pre">_config.yml</span></code>、<code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code> 以匹配你的项目。</p>
-</section>
-</section>
+</div>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -445,7 +383,7 @@ jupyter-book build .
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./docs/about"
+            path: "./about"
         },
         predefinedOutput: true
     }
@@ -488,14 +426,8 @@ jupyter-book build .
     <div class="container">
       <p>
         
-          <div class="extra_footer">
-            <p class="w3-card w3-pale-blue w3-padding">
-  Copyright © 2021
-  <a href="https://sanstylelab.github.io/">SanstyleLab</a> | 
-  Powered by <a href="https://github.com/executablebooks/jupyter-book">Jupyter Book</a>.
-</p>
-
-          </div>
+          By xinetzone<br/>
+        
       </p>
     </div>
   </footer>
@@ -505,7 +437,7 @@ jupyter-book build .
       </div>
     </div>
   
-  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
   
   </body>

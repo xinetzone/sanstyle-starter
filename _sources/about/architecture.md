@@ -26,11 +26,11 @@
 ^^^
 存储项目的应用。
 ---
-{download}`_config.yml<../../_config.yml>`
+{download}`_config.yml<../_config.yml>`
 ^^^
 **项目文档**的配置文件。
 ---
-{download}`_toc.yml<../../_toc.yml>`
+{download}`_toc.yml<../_toc.yml>`
 ^^^
 **项目文档**的目录结构文件。
 ---
@@ -38,35 +38,31 @@
 ^^^
 Git 忽略的文件模式。
 ---
-{download}`CHANGELOG.md<../../CHANGELOG.md>`
+{download}`CHANGELOG.md<../CHANGELOG.md>`
 ^^^
 项目的变更日志。被包含到**项目文档**。
 ---
-{download}`index.md<../../index.md>`
+{download}`index.md<../index.md>`
 ^^^
 **项目文档**登录页。
----
-{download}`README.md<../../README.md>`
-^^^
-项目的自述文档。被包含到**项目文档**。
 ---
 {download}`LICENSE<../../LICENSE>`
 ^^^
 项目的许可证。
 ---
-{download}`logo.jpg<../../logo.jpg>`
+{download}`logo.jpg<../logo.jpg>`
 ^^^
 **项目文档**页眉的 LOGO。
 ---
-{download}`page-logo.jfif<../../page-logo.jfif>`
+{download}`page-logo.jfif<../page-logo.jfif>`
 ^^^
 **项目文档**标签页的 LOGO。
 ---
-{download}`references.bib<../../references.bib>`
+{download}`references.bib<../references.bib>`
 ^^^
 **项目文档**的参考文献。
 ---
-{download}`requirements.txt<../../requirements.txt>`
+{download}`requirements.txt<../requirements.txt>`
 ^^^
 项目的 Python 依赖包。
 :::
